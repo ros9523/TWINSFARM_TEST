@@ -9,7 +9,7 @@ function App() {
       <img className="App_logo" src={Logo} />
       <div className="App_Elements">
         <Form></Form>
-        <img className="image" src={Images} />
+        <img className="App_image" src={Images} />
       </div>
     </div>
   );

@@ -47,11 +47,11 @@ const Form = () => {
             placeholder="Ingresa nuevamente"
           />
         </div>
-        <p className="text">
+        <p className="form_text">
           Password must be at least 8 characters and contain at least two of the
           following: uppercase letters, lowevercase letters, numbers ans symbols
         </p>
-        <div className="form_checks">
+        <div className="form_checkboxs">
           <li>
             <input className="checkbox" type="checkbox" />
             <label className="checkbox_label" for="logged in">
@@ -73,9 +73,9 @@ const Form = () => {
             </label>
           </li>
         </div>
-        <button className="btn_submit">Registrate</button>
+        <button className="form_register">Registrate</button>
         <div className="form_texts">
-          <p className="form_text">
+          <p className="form_text2">
             YA TENES CUENTA? <spam className="form_spam">Ingresá</spam>
           </p>
         </div>

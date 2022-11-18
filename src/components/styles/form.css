@@ -15,6 +15,7 @@ body{
 .container{
     padding: 10px;
 }
+
 .form{
     width: 350px;
     height: 100vh;
@@ -66,13 +67,14 @@ body{
 }
 
 
-.text{
+.form_text{
     color:darkgray;
     font-weight: 100;
+    font-size: 12px;
      
 }
 
-.form_checks{
+.form_checkboxs{
  display: flex;
  flex-direction: column;
  gap: 10px;
@@ -80,9 +82,7 @@ body{
 
 .checkbox_label{
     font-weight: 500;
-    font-size: 12px;
-    
-   
+    font-size: 12px; 
 }
 
 li{
@@ -90,7 +90,7 @@ li{
 }
 
 
-.btn_submit{
+.form_register{
    width: inherit;
     height: 50px;
     border-radius: 10px;
@@ -103,7 +103,7 @@ li{
    
 }
 
-.form_text{
+.form_text2{
     font-size: 12px;
     text-align: center;
 }
@@ -113,12 +113,6 @@ li{
 }
 
 
-
-@media (max-width: 700px){
-    .form{
-        width: 450px;
-    }
-}
 
 
 
