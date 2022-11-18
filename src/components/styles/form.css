@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family:  'Roboto', sans-serif;
+}
+
+
+.container{
+    padding: 10px;
+}
+.form{
+    width: 350px;
+    height: 100vh;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    
+}
+
+.form_names{
+    display: flex;
+    gap: 12px;  
+}
+    
+
+.form_pass{
+    position: relative;
+    right: 15px;
+}
+
+
+/* Elements */
+.form_title{
+    color: green;
+    font-size: 50px;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.2px solid rgb(41 37 36);
+    height:45px;
+    width: 150px;
+   
+    
+}
+
+.input--pass{
+    width: 310px; 
+    padding-left: 20px;
+}
+
+.bx-lock-alt{
+    position: relative;
+    left: 20px;
+    color: goldenrod  
+}
+
+
+.text{
+    color:darkgray;
+    font-weight: 100;
+     
+}
+
+.form_checks{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.checkbox_label{
+    font-weight: 500;
+    font-size: 12px;
+    
+   
+}
+
+li{
+    list-style: none;
+}
+
+
+.btn_submit{
+   width: inherit;
+    height: 50px;
+    border-radius: 10px;
+   align-self: center;
+   background-color:orangered;
+   padding: 10px;
+   font-family: inherit;
+   font-size: large;
+   color: white;
+   
+}
+
+.form_text{
+    font-size: 12px;
+    text-align: center;
+}
+
+.form_spam{
+    color:orangered;
+}
+
+
+
+@media (max-width: 700px){
+    .form{
+        width: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
